@@ -4,15 +4,114 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <meta name="description" content="Shodaiの作ったアプリケーションを紹介します。">
+    <title>I'm Shoudai</title>
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      header {
+        padding: 30px 0;
+        text-align: center;
+        background-color: #fff;
+      }
+      
+      header h1 {
+        padding-bottom: 50px;
+      }
+      
+      .nav {
+        background-color: #fff;
+      }
+      
+      li {
+        background-color: #fff;
+      }
+      
+      .row {
+        background-color: #1e90ff;  
+      }
+      
+      footer {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 93%;
+        background-color: #ffd700;
+      }
+      
+      .icon {
+        text-align: center;
+        font-size: 80px;
+        background-color: #1e90ff;
+      }
+      
+      .ico .glyphicon {
+        margin-bottom: 20px;
+        font-size: 90px;
+      }
+      
+      
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <h1><a href="index.html">I'm Shoudai.</a><h1>
+      <ul class="nav nav-tabs nav-justified">
+        <li role="presentaion" class=active><a href="index.html">APPS</a></li>
+        <li role="presentaion"><a href="about.html">PROFILE</a></li>
+      </ul>
+    </header>
+    <div class="icon">
+      <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+      <div class="icon-caption">MY APPS</div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <img src="dnaldduck.png" alt="appsimage1">
+          <div class="caption">
+            <h3>my first app</h3>
+            <p>this app is hogehoge.how to use?</p>
+            <p><a href="#" class="btn btn-primary" role="button">GO</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <img src="dnaldduck.png" alt="appsimage2">
+          <div class="caption">
+            <h3>my second app</h3>
+            <p>this app is hogehoge.how to use?</p>
+            <p><a href="#" class="btn btn-primary" role="button">GO</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <img src="dnaldduck.png" alt="appsimage3">
+          <div class="caption">
+            <h3>my third app</h3>
+            <p>this app is hogehoge.how to use?</p>
+            <p><a href="#" class="btn btn-primary" role="button">GO</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <img src="dnaldduck.png" alt="appsimage4">
+          <div class="caption">
+            <h3>my fourth app</h3>
+            <p>this app is hogehoge.how to use?</p>
+            <p><a href="#" class="btn btn-primary" role="button">GO</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+    <p>&copy; 2016 Shoudai Imada.</p>
+    </footer>
   </body>
 </html>
